@@ -1,1 +1,52 @@
-/*  your css code here. If applicable */
+/*  your CSS code here. If applicable */
+.hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 40px;
+      background-color: #f8f8f8;
+    }
+
+    .hero img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .hero p {
+      font-size: 16px;
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    .hero a {
+      padding: 12px 24px;
+      background-color: #e60023; /* Pinterest red */
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .hero a:hover {
+      background-color: #ad081b;
+    }
+
+.hero a{
+	padding:20px;
+	background-color: red;
+	color:black;
+	border-radius:20%;
+}
